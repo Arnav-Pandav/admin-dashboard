@@ -1,0 +1,27 @@
+{
+  "kpis": [
+    { "title": "Revenue", "value": "$48,920", "delta": "+12.4%", "icon": "DollarSign" },
+    { "title": "Orders", "value": "1,284", "delta": "+4.8%", "icon": "ShoppingCart" },
+    { "title": "Active Users", "value": "9,431", "delta": "+2.1%", "icon": "Users" },
+    { "title": "Conversion", "value": "3.84%", "delta": "+0.3%", "icon": "TrendingUp" }
+  ],
+  "revenue": [12000, 10000, 14000, 18000, 15000, 21000, 24000, 22000, 27000, 30000, 29000, 34000],
+  "orders": {
+    "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+    "online": [120, 140, 160, 155, 180, 210, 220, 235],
+    "retail": [90, 110, 100, 130, 125, 150, 160, 175]
+  },
+  "channels": { "labels": ["Organic", "Social", "Paid", "Referral"], "data": [45, 25, 20, 10] },
+  "activities": [
+    { "id": 1, "text": "Order #1045 marked as fulfilled", "time": "2m ago" },
+    { "id": 2, "text": "New signup: sonal.patel@example.com", "time": "13m ago" },
+    { "id": 3, "text": "Inventory low: Running Shoes (Blue)", "time": "28m ago" },
+    { "id": 4, "text": "Payout sent: $3,420", "time": "1h ago" }
+  ],
+  "ordersTable": [
+    { "id": "#1048", "customer": "A. Sharma", "items": 3, "amount": "$158.00", "status": "Paid" },
+    { "id": "#1047", "customer": "K. Verma", "items": 1, "amount": "$59.00", "status": "Paid" },
+    { "id": "#1046", "customer": "R. Singh", "items": 2, "amount": "$92.50", "status": "Pending" },
+    { "id": "#1045", "customer": "S. Patel", "items": 4, "amount": "$221.00", "status": "Paid" }
+  ]
+}
